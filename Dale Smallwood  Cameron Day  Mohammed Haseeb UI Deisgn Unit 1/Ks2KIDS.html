@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link href='Style.css' rel="stylesheet">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+    <title>KS2</title>
+
+  </head>
+  <body class="KidsBody">
+
+
+  <img class="CompanyName" src="Images/BouncingBabyFont.PNG"</img>
+  <img class="CompanyLogo" src="Images/BouncingBabyLogo.PNG"> </img>
+
+  <!--Avatar images and member level section which will display on the website-->
+  <div class="AvatarContent">
+  <img src="Images/ProBaby.PNG" alt="Pro Baby" class="ProBaby"></img>
+  <div class="MembershipButtons">
+  <a href="KS2KIDSFREE.html">Cancel Membership</a>
+  <a href="#">Login</a>
+  <a href="#">Logout</a>
+  </div>
+  </div>
+
+<!--Navigation Bar code which will display some baby pictures in place of writing-->
+<div class="NavBar">
+   <a class="HomeGoBack" href="HomeKIDS.html"><img src="Images/HomeBaby.PNG" alt="HomeBaby" class="ImgNav"></a>
+   <a class="MoGames" href="GamesKIDS.html"><img src="Images/GamesBaby.PNG" alt="GamesBaby" class="ImgNav"></a>
+   <a class="MoTv" href="TvShowsKIDS.html"><img src="Images/TvBaby.PNG" alt="TvShows" class="ImgNav"></a>
+   <a class="MoEducational" href="EducationKIDS.html"><img src="Images/GraduationBaby.PNG" alt="Educational" class="ImgNav"></a>
+   <a class="KidsMode"href="EducationAdult.html"><button onclick="myFunction()">Kids Mode</button></a>
+
+<!--Adult mode button-->
+<script>
+function myFunction() {
+  confirm("Click OK to switch to Adult Layout");
+}
+</script>
+</div>
+
+<!--Subject Baby Images-->
+<div class="KS2Wraper1">
+  <a href="KS2EnglishKIDS.html"><img src="Images/EnglishBaby.PNG" alt="English" class="EnglishBaby"></a>
+  <a href="KS2MathsKIDS.html"><img src="Images/MathsBaby.PNG" alt="Maths" class="MathsBaby"></a>
+</div>
+
+<div class="HomeFirstBrake"></div>
+
+<div class="KS2Wraper2">
+  <a href="KS2ArtKIDS.html"><img src="Images/ArtBaby.PNG" alt="Art" class="ArtBaby"></a>
+  <a href="KS2ScienceKIDS.html"><img src="Images/ScienceBaby.PNG" alt="Science" class="ScienceBaby"></a>
+</div>
+
+<!--AUDIO TAGS-->
+<!--Home Button Audio which plays when you hover over the Home Baby-->
+<audio id="Go-Back" preload="auto">
+    <source src="Audio/GoBack.mp3">
+</audio>
+
+<script>
+
+  var PlayGoBack = $("#Go-Back")[0];
+  $(".HomeGoBack")
+.mouseenter(function() {
+  PlayGoBack.play();
+});
+</script>
+
+<!--Games Audio which plays when you hover over the Games Baby-->
+<audio id="Mo-Games" preload="auto">
+    <source src="Audio/Mo-Games.mp3">
+</audio>
+<script>
+
+  var PlayGames = $("#Mo-Games")[0];
+  $(".MoGames")
+.mouseenter(function() {
+  PlayGames .play();
+});
+</script>
+
+<!--TV Show Audio which plays when you hover over the TVShows Baby-->
+<audio id="Mo-Tv" preload="auto">
+    <source src="Audio/Mo-Tv.mp3">
+</audio>
+<script>
+
+  var PlayTvShows = $("#Mo-Tv")[0];
+  $(".MoTv")
+.mouseenter(function() {
+  PlayTvShows .play();
+});
+</script>
+
+<!--Educational Audio which plays when you hover over the Educational Baby-->
+<audio id="Mo-Educational" preload="auto">
+    <source src="Audio/Mo-Education.mp3">
+</audio>
+<script>
+
+  var PlayEducational = $("#Mo-Educational")[0];
+  $(".MoEducational")
+.mouseenter(function() {
+  PlayEducational .play();
+});
+</script>
+
+<!--KidsMode Audio which plays when you hover over the KidsMode Button-->
+<audio id="KidsModeOff" preload="auto">
+  <source src="Audio/KidsModeOff.mp3">
+</audio>
+<script>
+
+var PlayKidsModeOff = $("#KidsModeOff")[0];
+$(".KidsMode")
+.mouseenter(function() {
+PlayKidsModeOff .play();
+});
+</script>
+
+
+<!--English Audio which plays when you hover over the English Baby-->
+<audio id="Mo-English" preload="auto">
+    <source src="Audio/MoEnglish.mp3">
+</audio>
+
+<script>
+
+var PlayEnglishBaby = $("#Mo-English")[0];
+$(".EnglishBaby")
+.mouseenter(function() {
+PlayEnglishBaby.play();
+});
+</script>
+
+<!--Maths Audio plays when you hover over the Maths baby-->
+<audio id="Mo-Maths" preload="auto">
+    <source src="Audio/Mo-Maths.mp3">
+</audio>
+
+<script>
+
+var PlayMaths = $("#Mo-Maths")[0];
+$(".MathsBaby")
+.mouseenter(function() {
+PlayMaths.play();
+});
+</script>
+
+<!--Science Audio plays when you hover over the Science Baby-->
+<audio id="Mo-Science" preload="auto">
+    <source src="Audio/Mo-Science.mp3">
+</audio>
+
+<script>
+
+  var PlayScience = $("#Mo-Science")[0];
+  $(".ScienceBaby")
+  .mouseenter(function() {
+  PlayScience.play();
+  });
+</script>
+
+<!--Art Audio plays when you hover over the Art Baby-->
+<audio id="Mo-Art" preload="auto">
+    <source src="Audio/Mo-Art.mp3">
+</audio>
+
+<script>
+
+  var PlayArt = $("#Mo-Art")[0];
+  $(".ArtBaby")
+  .mouseenter(function() {
+  PlayArt.play();
+  });
+</script>
+
+</body>
+
+<!--Footer-->
+<footer> © Bouncing Babys 2021 All Rights Reserved</footer>
+</html>

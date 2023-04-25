@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link href='Style.css' rel="stylesheet">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+	<title>Games</title>
+
+  </head>
+  <body class="KidsBody">
+>
+
+
+  <img class="CompanyName" src="Images/BouncingBabyFont.PNG"</img>
+  <img class="CompanyLogo" src="Images/BouncingBabyLogo.PNG"> </img>
+
+  <!--Avatar images and member level section which will display on the website-->
+  <div class="AvatarContent">
+  <img src="Images/ProBaby.PNG" alt="Pro Baby" class="ProBaby"></img>
+  <div class="MembershipButtons">
+  <a href="GamesKIDSFREE.html">Cancel Membership</a>
+  <a href="#">Login</a>
+  <a href="#">Logout</a>
+  </div>
+  </div>
+
+<!--Navigation Bar code which will display some baby pictures in place of writing-->
+<div class="NavBar">
+   <a class="HomeGoBack" href="HomeKIDS.html"><img src="Images/HomeBaby.PNG" alt="HomeBaby" class="ImgNav"></a>
+   <a class="MoGames" href="GamesKIDS.html"><img src="Images/GamesBaby.PNG" alt="GamesBaby" class="ImgNav"></a>
+   <a class="MoTv" href="TvShowsKIDS.html"><img src="Images/TvBaby.PNG" alt="TvShows" class="ImgNav"></a>
+   <a class="MoEducational" href="EducationKIDS.html"><img src="Images/GraduationBaby.PNG" alt="Educational" class="ImgNav"></a>
+   <a class="KidsMode"href="GamesAdult.html"><button onclick="myFunction()">Kids Mode</button></a>
+
+<!--Adult mode button-->
+<script>
+function myFunction() {
+  confirm("Click OK to switch to Adult Layout");
+}
+</script>
+</div>
+
+<!--Games links which will direct them to another tab with the respected game on once clicked-->
+<div class="GamesWraper1">
+<a href="https://cdn.htmlgames.com/EuropeanCities/"target="_blank"><img src="Images/EuropeanCities.JPG" alt="European Cities Game" class="EuropeanCities"></a>
+<a href="https://cdn.htmlgames.com/CandyCrunch/"target="_blank"><img src="Images/CandyCrunch.JPG" alt="Candy Crunch Game" class="CandyCrunchGame"></a>
+</div>
+
+
+<div class="HomeFirstBrake"></div>
+<div class="GamesWraper2">
+  <a href="https://cdn.htmlgames.com/WhackTheMoles/"target="_blank"><img src="Images/WhackTheMoles.JPG" alt="Whack The Moles Game" class="WhackTheMolesGame"></a>
+  <a href="https://cdn.htmlgames.com/FrogJumper/"target="_blank"><img src="Images/FrogJumper.JPG" alt="Frog Jumper Game" class="FrogJumperGame"></a>
+</div>
+
+<div class="HomeSecondBrake"></div>
+<div class="GamesWraper3">
+  <a href="https://cdn.htmlgames.com/CupidBubble/"target="_blank"><img src="Images/CupidBubble.JPG" alt="Cupid Bubble Game" class="CupidBubbleGame"></a>
+  <a href="https://cdn.htmlgames.com/SpiteAndMaliceExtreme/"target="_blank"><img src="Images/SpiteAndMaliceExtreme.JPG" alt="Spite And Malice Extreme" class="SpiteAndMaliceExtremeGame"></a>
+</div>
+
+<!--AUDIO TAGS-->
+<!--Home Button Audio which plays when you hover over the Home Baby-->
+<audio id="Go-Back" preload="auto">
+    <source src="Audio/GoBack.mp3">
+</audio>
+
+<script>
+
+  var PlayGoBack = $("#Go-Back")[0];
+  $(".HomeGoBack")
+.mouseenter(function() {
+  PlayGoBack.play();
+});
+</script>
+
+<!--Games Audio which plays when you hover over the Games Baby-->
+<audio id="Mo-Games" preload="auto">
+    <source src="Audio/Mo-Games.mp3">
+</audio>
+
+<script>
+
+  var PlayGames = $("#Mo-Games")[0];
+  $(".MoGames")
+.mouseenter(function() {
+  PlayGames .play();
+});
+</script>
+
+<!--TV Show Audio which plays when you hover over the TVShows Baby-->
+<audio id="Mo-tv" preload="auto">
+    <source src="Audio/TvShows.mp3">
+</audio>
+
+<script>
+
+  var PlayTvShows = $("#Mo-Tv")[0];
+  $(".MoTv")
+.mouseenter(function() {
+  PlayTvShows .play();
+});
+</script>
+
+<!--Educational Audio which plays when you hover over the Educational Baby-->
+<audio id="Mo-Educational" preload="auto">
+    <source src="Audio/Mo-Education.mp3">
+</audio>
+<script>
+
+  var PlayEducational = $("#Mo-Educational")[0];
+  $(".MoEducational")
+.mouseenter(function() {
+  PlayEducational .play();
+});
+</script>
+
+<!--TV Show Audio which plays when you hover over the TVShows Baby-->
+<audio id="Mo-Tv" preload="auto">
+    <source src="Audio/Mo-Tv.mp3">
+</audio>
+
+<script>
+
+  var PlayTvShows = $("#Mo-Tv")[0];
+  $(".MoTv")
+.mouseenter(function() {
+  PlayTvShows .play();
+});
+</script>
+
+<!--KidsMode Audio which plays when you hover over the KidsMode Button-->
+<audio id="KidsModeOff" preload="auto">
+    <source src="Audio/KidsModeOff.mp3">
+</audio>
+
+<script>
+
+var PlayKidsModeOff = $("#KidsModeOff")[0];
+$(".KidsMode")
+.mouseenter(function() {
+PlayKidsModeOff .play();
+});
+</script>
+
+</body>
+
+<!--Footer-->
+<footer>© Bouncing Baby 2021 All Rights Reserved</footer>
+</html>

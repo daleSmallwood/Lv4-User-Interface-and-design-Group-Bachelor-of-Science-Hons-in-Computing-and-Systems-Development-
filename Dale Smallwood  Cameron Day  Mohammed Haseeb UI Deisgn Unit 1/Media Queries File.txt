@@ -1,0 +1,3235 @@
+ @media only screen and (min-width: 1440px) {
+  body{
+    background-image: url("placeholder");
+  }
+
+      /*contact css start*/
+      LoginFormContainer{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 100%;
+        width: 50%;
+      }
+      .LoginForm{
+        width: 70%;
+        height: 600px;
+        right: 280px;
+        top: 100%;
+        margin-top: 10%;
+
+        background-color:rgb(22, 105, 240);
+        border: 5px solid  rgb(26, 26, 28);
+
+      }
+
+      form{
+        margin-top: 30px;
+
+      }
+      .FormContent{
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10%;
+        font-size: 20px;
+      }
+      input{
+        height: 70px;
+      }
+      form .submit{
+        background-color: rgb(201, 158, 79);
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 50px;
+        height: 150px;
+      }
+      form .submit:hover{
+        background-color:rgb(232, 128, 77);
+        cursor: pointer;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 30px;
+      }
+      .CompanyName{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:100px;
+        text-align: center;
+        font-size: 10px;
+        height: 140px;
+        width: 35%;
+        float: left;
+        position: relative;
+
+      }
+      .CompanyLogo{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 300px;
+        width: 33%;
+        float: left;
+        position: relative;
+      }
+      .AvatarSection{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid red;
+        margin-right: 40px;
+        margin-top: 5px;
+        top:70px;
+        text-align: center;
+        font-size: 10px;
+        height: 200px;
+        width: 25%;
+        float: right;
+
+        position:relative;
+        z-index: -1;
+      }
+      .AvatarImage{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-top: 5px;
+      margin-right: 5px;
+      top:5px;
+      text-align: center;
+      font-size: 10px;
+      height: 40px;
+      width: 95%;
+      float: left;
+      position: relative;
+      }
+
+      .MemberLevel{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 30px;
+        width: 40%;
+        position: relative;
+        float:left;
+      }
+      .UserName{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 30px;
+        width: 40%;
+        float: right;
+        position: relative;
+      }
+
+      .NavBar{
+        overflow: hidden;
+        background-color: rgb(162, 219, 132);
+        border: 1px solid black;
+        width: 100%;
+        height: 150px;
+        margin-top: 5px;
+        top: 20px;
+        position: relative;
+
+
+      }
+      .NavBar a{
+        float: left;
+        text-align: center;
+        padding: 5px;
+        font-size: 15px;
+        border: 1px solid black;
+        border-radius: 40px;
+        width: 16%;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        margin-right: 30px;
+        margin-left: 15px;
+      }
+      .NavBar a:hover{
+        background-color:rgb(232, 128, 77);
+
+      }
+      .HomeGoBack{
+      }
+
+      .MoGames{
+      }
+
+      .MoTv{
+        background-color: rgb(245, 147, 181)
+      }
+      .MoTv:hover{
+          background-color:rgb(232, 128, 77);
+      }
+    .MoEducational{
+
+    }
+      .NavBar a.CurrentPage{
+        background-color: rgb(245, 147, 181);
+      }
+      .ImgNav{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 100%;
+      height: 120px;
+      float: left;
+      position: relative;
+    }
+      .KidsMode{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        background-color: rgb(245, 147, 181);
+        border-radius: 10px;
+        border: 1px solid black;
+        position: relative;
+        margin-right: 5px;
+        width: 25%;
+        height: 150px;
+        left: 20px;
+        float: right;
+        font-size: 12px;
+        text-align: center;
+      }
+      .button{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        background-color: rgb(245, 147, 181);
+        border-radius: 10px;
+        border: 1px solid black;
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 25%;
+        height: 150px;
+        left: 20px;
+        float: right;
+        font-size: 12px;
+        text-align: center;
+      }
+      /*Tv Css Start */
+      .VidWraper1{
+        grid-column-start: 1;
+        grid-column-end:6;
+        border:1px solid black;
+        height: 25%;
+        width:100%;
+        position: relative;
+        top: 150px;
+      }
+
+
+      .PeppaPigShow{
+        grid-column-start: 1;
+        grid-column: end: 3;
+        width: 230px;
+        height: 100%;
+        float: left;
+        position: relative;
+      }
+      .PeppaPigShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+
+      .InTheNightGardenShow {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        width: 230px;
+        height: 100%;
+        float: right;
+        position: relative;
+      }
+      .InTheNightGardenShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .VidWraper2{
+        grid-column-start: 1;
+        grid-column-end:6;
+        border:1px solid black;
+        height: 25%;
+        width:100%;
+        position: relative;
+        top: 150px;
+      }
+      .PinguShow{
+        grid-column-start: 1;
+        grid-column: end: 3;
+        width: 230px;
+        height: 100%;
+        float: left;
+        position: relative;
+      }
+      .PinguShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .SesameStreetShow{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        width: 230px;
+        height: 100%;
+        float: right;
+        position: relative;
+      }
+      .SesameStreetShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .HomeFirstBrake{
+        width: 100%;
+        height: 5px;
+        background-color:rgb(162, 219, 132);
+        border: 2px solid black;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 150px;
+      }
+      .HomeSecondBrake{
+        width: 100%;
+        height: 5px;
+        background-color:rgb(162, 219, 132);
+        border: 2px solid black;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 150px;
+      }
+
+
+    .TvShowTimeTableHeader{
+    grid-column-start:2;
+    grid-column-end: 5;
+    width: 70%;
+    height: 4%;
+    border: 10px rgb(255, 144, 89);
+    background-color:rgb(162, 219, 132);
+    border-radius: 17px;
+    border-style: dotted;
+    left: 80px;
+    top: 220px;
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    }
+
+    .TvShowTimeTable{
+      grid-column-start:2;
+      grid-column-end: 5;
+      width: 70%;
+      height: 35%;
+      border: 10px rgb(255, 144, 89);
+      background-color:rgb(162, 219, 132);
+      border-radius: 17px;
+      border-style: dotted;
+      left: 80px;
+      top: 250px;
+      position: relative;
+    }
+    /*TvShow Css End */
+
+    /*Educational Css Start*/
+    .EducationalWraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .EducationalWraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+
+    .KS1Baby{
+      grid-column-start: 2;
+      grid-column-end: 5;
+      width: 450px;
+      height: 100%;
+      float: left;
+      left: 20px;
+      position: relative;
+    }
+    .KS1Baby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .KS2Baby{
+      grid-column-start: 2;
+      grid-column-end: 5;
+      width: 450px;
+      height: 100%;
+      float: left;
+      left: 20px;
+      position: relative;
+    }
+    .KS2Baby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .KS1Wraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS1Wraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS2Wraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 300px;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS2Wraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 300px;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    /*Educational Css End */
+
+    /* KS1 and KS2 css Start*/
+    .EnglishBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 300px;
+      height: 300px;
+      float: left;
+      position: relative;
+    }
+    .EnglishBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .MathsBaby{
+      grid-column-start: 3;
+      grid-column: end: 6;
+      width: 300px;
+      height: 300px;
+      float: right;
+      position: relative;
+    }
+    .MathsBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .ArtBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 300px;
+      height: 300px;
+      float: left;
+      position: relative;
+    }
+
+    .ArtBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+
+    .ScienceBaby{
+      grid-column-start: 3;
+      grid-column: end: 6;
+      width: 500px;
+      height: 500px;
+      left: 150px;
+      float: right;
+      position: relative;
+    }
+    .ScienceBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    /*KS1 and KS2 Css End*/
+
+    footer{
+      top: 300px;
+      width: 100%;
+      height: 20px;
+      border-radius: 15px;
+      border:3px solid black;
+      background-color:rgb(162, 219, 132);
+      position: relative;
+      float:left;
+      text-align: center;
+
+    }
+      }
+      /*Phone css End*/
+
+@media (max-width:1200px){
+  body{
+    background-image: url("placeholder");
+  }
+
+      /*contact css start*/
+      LoginFormContainer{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 100%;
+        width: 50%;
+      }
+      .LoginForm{
+        width: 70%;
+        height: 600px;
+        right: 280px;
+        top: 100%;
+        margin-top: 10%;
+
+        background-color:rgb(22, 105, 240);
+        border: 5px solid  rgb(26, 26, 28);
+
+      }
+
+      form{
+        margin-top: 30px;
+
+      }
+      .FormContent{
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10%;
+        font-size: 20px;
+      }
+      input{
+        height: 70px;
+      }
+      form .submit{
+        background-color: rgb(201, 158, 79);
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 50px;
+        height: 150px;
+      }
+      form .submit:hover{
+        background-color:rgb(232, 128, 77);
+        cursor: pointer;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 30px;
+      }
+      .CompanyName{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 140px;
+        width: 35%;
+        float: left;
+        position: relative;
+
+      }
+      .CompanyLogo{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 140px;
+        width: 33%;
+        float: left;
+        position: relative;
+      }
+      .AvatarSection{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid red;
+        margin-left: 20px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 120px;
+        width: 25%;
+        float: left;
+
+        position:relative;
+        z-index: -1;
+      }
+      .AvatarImage{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-top: 5px;
+      margin-right: 5px;
+      top:5px;
+      text-align: center;
+      font-size: 10px;
+      height: 40px;
+      width: 95%;
+      float: left;
+      position: relative;
+      }
+
+      .MemberLevel{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 30px;
+        width: 40%;
+        position: relative;
+        float:left;
+      }
+      .UserName{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 30px;
+        width: 40%;
+        float: right;
+        position: relative;
+      }
+
+      .NavBar{
+        overflow: hidden;
+        background-color: rgb(162, 219, 132);
+        border: 1px solid black;
+        width: 100%;
+        height: 70px;
+        margin-top: 5px;
+        top: 20px;
+        position: relative;
+
+      }
+      .NavBar a{
+        float: left;
+        text-align: center;
+        padding: 5px;
+        font-size: 15px;
+        border: 1px solid black;
+        margin-right: 5px;
+        width: 15%;
+        height: 60px;
+      }
+      .NavBar a:hover{
+        background-color:rgb(232, 128, 77);
+
+      }
+      .HomeGoBack{
+      }
+
+      .MoGames{
+      }
+
+      .MoTv{
+        background-color: rgb(245, 147, 181)
+      }
+      .MoTv:hover{
+          background-color:rgb(232, 128, 77);
+      }
+    .MoEducational{
+
+    }
+      .NavBar a.CurrentPage{
+        background-color: rgb(245, 147, 181);
+      }
+      .ImgNav{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 100%;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+      .KidsMode{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        background-color: rgb(245, 147, 181);
+        border-radius: 10px;
+        border: 1px solid black;
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 25%;
+        height: 10px;
+        left: 20px;
+        float: right;
+        font-size: 12px;
+        text-align: center;
+      }
+      .button{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        background-color: rgb(245, 147, 181);
+        border-radius: 10px;
+        border: 1px solid black;
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 25%;
+        height: 10px;
+        left: 20px;
+        float: right;
+        font-size: 12px;
+        text-align: center;
+      }
+      /*Tv Css Start */
+      .VidWraper1{
+        grid-column-start: 1;
+        grid-column-end:6;
+        border:1px solid black;
+        height: 25%;
+        width:100%;
+        position: relative;
+        top: 150px;
+      }
+
+
+      .PeppaPigShow{
+        grid-column-start: 1;
+        grid-column: end: 3;
+        width: 230px;
+        height: 100%;
+        float: left;
+        position: relative;
+      }
+      .PeppaPigShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+
+      .InTheNightGardenShow {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        width: 230px;
+        height: 100%;
+        float: right;
+        position: relative;
+      }
+      .InTheNightGardenShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .VidWraper2{
+        grid-column-start: 1;
+        grid-column-end:6;
+        border:1px solid black;
+        height: 25%;
+        width:100%;
+        position: relative;
+        top: 150px;
+      }
+      .PinguShow{
+        grid-column-start: 1;
+        grid-column: end: 3;
+        width: 230px;
+        height: 100%;
+        float: left;
+        position: relative;
+      }
+      .PinguShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .SesameStreetShow{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        width: 230px;
+        height: 100%;
+        float: right;
+        position: relative;
+      }
+      .SesameStreetShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .HomeFirstBrake{
+        width: 100%;
+        height: 5px;
+        background-color:rgb(162, 219, 132);
+        border: 2px solid black;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 150px;
+      }
+      .HomeSecondBrake{
+        width: 100%;
+        height: 5px;
+        background-color:rgb(162, 219, 132);
+        border: 2px solid black;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 150px;
+      }
+
+
+    .TvShowTimeTableHeader{
+    grid-column-start:2;
+    grid-column-end: 5;
+    width: 70%;
+    height: 4%;
+    border: 10px rgb(255, 144, 89);
+    background-color:rgb(162, 219, 132);
+    border-radius: 17px;
+    border-style: dotted;
+    left: 80px;
+    top: 220px;
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    }
+
+    .TvShowTimeTable{
+      grid-column-start:2;
+      grid-column-end: 5;
+      width: 70%;
+      height: 35%;
+      border: 10px rgb(255, 144, 89);
+      background-color:rgb(162, 219, 132);
+      border-radius: 17px;
+      border-style: dotted;
+      left: 80px;
+      top: 250px;
+      position: relative;
+    }
+    /*TvShow Css End */
+
+    /*Educational Css Start*/
+    .EducationalWraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .EducationalWraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+
+    .KS1Baby{
+      grid-column-start: 2;
+      grid-column-end: 5;
+      width: 450px;
+      height: 100%;
+      float: left;
+      left: 20px;
+      position: relative;
+    }
+    .KS1Baby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .KS2Baby{
+      grid-column-start: 2;
+      grid-column-end: 5;
+      width: 450px;
+      height: 100%;
+      float: left;
+      left: 20px;
+      position: relative;
+    }
+    .KS2Baby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .KS1Wraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS1Wraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS2Wraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS2Wraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    /*Educational Css End */
+
+    /* KS1 and KS2 css Start*/
+    .EnglishBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .EnglishBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .MathsBaby{
+      grid-column-start: 3;
+      grid-column: end: 6;
+      width: 230px;
+      height: 100%;
+      float: right;
+      position: relative;
+    }
+    .MathsBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .ArtBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+
+    .ArtBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+
+    .ScienceBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .ScienceBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    /*KS1 and KS2 Css End*/
+
+    footer{
+      top: 300px;
+      width: 100%;
+      height: 20px;
+      border-radius: 15px;
+      border:3px solid black;
+      background-color:rgb(162, 219, 132);
+      position: relative;
+      float:left;
+      text-align: center;
+
+    }
+      }
+      /*Phone css End*/
+
+}
+/*Games css*/
+.GamesWraper1{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+.GamesWraper2{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+
+.GamesWraper3{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 160px;
+}
+
+.EuropeanCities{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 200px;
+    height: 95%;
+    float: left;
+    position: relative;
+    border:4px solid black;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.CandyCrunchGame{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 200px;
+    height: 95%;
+    float: right;
+    position: relative;
+    border:4px solid black;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.WhackTheMolesGame{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 200px;
+    height: 95%;
+    float: left;
+    position: relative;
+    border:4px solid black;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.FrogJumperGame{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 200px;
+  height: 95%;
+  float: right;
+  position: relative;
+  border:4px solid black;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.CupidBubbleGame{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 200px;
+  height: 95%;
+  float: left;
+  position: relative;
+  border:4px solid black;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.SpiteAndMaliceExtremeGame{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 200px;
+  height: 95%;
+  float: right;
+  position: relative;
+  border:4px solid black;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.AnimalWordSearch{
+  grid-column-start: 2;
+  grid-column-end:3;
+  border:1px solid black;
+  height: 25%;
+  width: 9.5%;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  top: 20px;
+  float: left;
+}
+.ShapesWordSearch{
+  grid-column-start: 3;
+  grid-column-end:4;
+  border:1px solid black;
+  height: 25%;
+  width: 9.5%;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  top: 20px;
+  float: left;
+}
+.CountryWordSearch{
+  grid-column-start: 4;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width: 9.5%;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  top: 20px;
+  float: left;
+}
+.MonthsWordSearch{
+  grid-column-start: 5;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width: 9.5%;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  top: 20px;
+  float: left;
+}
+.DaysOfWeekWordSearch{
+  grid-column-start: 6;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width: 9.5%;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  top: 20px;
+  float: left;
+}
+/*login large moniter css start Made by -  edit this and stick to doing this size */
+.LoginFormContainer{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 80%;
+  height: auto;
+  left: 80px;
+  padding: 15px;
+  top: 250px;
+  background-color:rgb(140, 4, 95);
+  float: left;
+  border: 10px groove rgb(97, 7, 67);
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+
+}
+.LoginForm{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 40%;
+  height: auto;
+  left: 40px;
+  padding: 15px;
+  top: 250px;
+  background-color:rgb(140, 4, 95);
+  border: 10px groove rgb(97, 7, 67);
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+
+form{
+  margin-top: 30px;
+
+}
+.FormContent{
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+}
+input{
+  height: 60px;
+}
+form .submit{
+  background-color: rgb(3, 255, 11);
+  font-weight: bold;
+  font-size: 22px;
+}
+form .submit:hover{
+  background-color:rgb(232, 128, 77);
+  cursor: pointer;
+}
+.Find{
+  margin-bottom: 10px;
+}
+}
+/*Login css end */
+
+@media (max-width: 992px) {
+
+      /*contact css start*/
+      LoginFormContainer{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 100%;
+        width: 50%;
+      }
+      .LoginForm{
+        width: 70%;
+        height: 600px;
+        right: 280px;
+        top: 100%;
+        margin-top: 10%;
+
+        background-color:rgb(22, 105, 240);
+        border: 5px solid  rgb(26, 26, 28);
+
+      }
+
+      form{
+        margin-top: 30px;
+
+      }
+      .FormContent{
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10%;
+        font-size: 20px;
+      }
+      input{
+        height: 70px;
+      }
+      form .submit{
+        background-color: rgb(201, 158, 79);
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 50px;
+        height: 150px;
+      }
+      form .submit:hover{
+        background-color:rgb(232, 128, 77);
+        cursor: pointer;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      .grid-container div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 30px;
+      }
+      .CompanyName{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 140px;
+        width: 35%;
+        float: left;
+        position: relative;
+
+      }
+      .CompanyLogo{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 140px;
+        width: 33%;
+        float: left;
+        position: relative;
+      }
+      .AvatarSection{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid red;
+        margin-left: 20px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 120px;
+        width: 25%;
+        float: left;
+
+        position:relative;
+        z-index: -1;
+      }
+      .AvatarImage{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-top: 5px;
+      margin-right: 5px;
+      top:5px;
+      text-align: center;
+      font-size: 10px;
+      height: 40px;
+      width: 95%;
+      float: left;
+      position: relative;
+      }
+
+      .MemberLevel{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 30px;
+        width: 40%;
+        position: relative;
+        float:left;
+      }
+      .UserName{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        top:10px;
+        text-align: center;
+        font-size: 10px;
+        height: 30px;
+        width: 40%;
+        float: right;
+        position: relative;
+      }
+
+      .NavBar{
+        overflow: hidden;
+        background-color: rgb(162, 219, 132);
+        border: 1px solid black;
+        width: 100%;
+        height: 70px;
+        margin-top: 5px;
+        top: 20px;
+        position: relative;
+
+      }
+      .NavBar a{
+        float: left;
+        text-align: center;
+        padding: 5px;
+        font-size: 15px;
+        border: 1px solid black;
+        margin-right: 5px;
+        width: 15%;
+        height: 60px;
+      }
+      .NavBar a:hover{
+        background-color:rgb(232, 128, 77);
+
+      }
+      .HomeGoBack{
+      }
+
+      .MoGames{
+      }
+
+      .MoTv{
+        background-color: rgb(245, 147, 181)
+      }
+      .MoTv:hover{
+          background-color:rgb(232, 128, 77);
+      }
+    .MoEducational{
+
+    }
+      .NavBar a.CurrentPage{
+        background-color: rgb(245, 147, 181);
+      }
+      .ImgNav{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 100%;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+      .KidsMode{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        background-color: rgb(245, 147, 181);
+        border-radius: 10px;
+        border: 1px solid black;
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 25%;
+        height: 10px;
+        left: 20px;
+        float: right;
+        font-size: 12px;
+        text-align: center;
+      }
+      .button{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        background-color: rgb(245, 147, 181);
+        border-radius: 10px;
+        border: 1px solid black;
+        position: relative;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 25%;
+        height: 10px;
+        left: 20px;
+        float: right;
+        font-size: 12px;
+        text-align: center;
+      }
+      /*Tv Css Start */
+      .VidWraper1{
+        grid-column-start: 1;
+        grid-column-end:6;
+        border:1px solid black;
+        height: 25%;
+        width:100%;
+        position: relative;
+        top: 150px;
+      }
+
+
+      .PeppaPigShow{
+        grid-column-start: 1;
+        grid-column: end: 3;
+        width: 230px;
+        height: 100%;
+        float: left;
+        position: relative;
+      }
+      .PeppaPigShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+
+      .InTheNightGardenShow {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        width: 230px;
+        height: 100%;
+        float: right;
+        position: relative;
+      }
+      .InTheNightGardenShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .VidWraper2{
+        grid-column-start: 1;
+        grid-column-end:6;
+        border:1px solid black;
+        height: 25%;
+        width:100%;
+        position: relative;
+        top: 150px;
+      }
+      .PinguShow{
+        grid-column-start: 1;
+        grid-column: end: 3;
+        width: 230px;
+        height: 100%;
+        float: left;
+        position: relative;
+      }
+      .PinguShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .SesameStreetShow{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        width: 230px;
+        height: 100%;
+        float: right;
+        position: relative;
+      }
+      .SesameStreetShow:hover {
+        background-color:rgb(232, 128, 77);
+      }
+      .HomeFirstBrake{
+        width: 100%;
+        height: 5px;
+        background-color:rgb(162, 219, 132);
+        border: 2px solid black;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 150px;
+      }
+      .HomeSecondBrake{
+        width: 100%;
+        height: 5px;
+        background-color:rgb(162, 219, 132);
+        border: 2px solid black;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        top: 150px;
+      }
+
+
+    .TvShowTimeTableHeader{
+    grid-column-start:2;
+    grid-column-end: 5;
+    width: 70%;
+    height: 4%;
+    border: 10px rgb(255, 144, 89);
+    background-color:rgb(162, 219, 132);
+    border-radius: 17px;
+    border-style: dotted;
+    left: 80px;
+    top: 220px;
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    }
+
+    .TvShowTimeTable{
+      grid-column-start:2;
+      grid-column-end: 5;
+      width: 70%;
+      height: 35%;
+      border: 10px rgb(255, 144, 89);
+      background-color:rgb(162, 219, 132);
+      border-radius: 17px;
+      border-style: dotted;
+      left: 80px;
+      top: 250px;
+      position: relative;
+    }
+    /*TvShow Css End */
+
+    /*Educational Css Start*/
+    .EducationalWraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .EducationalWraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+
+    .KS1Baby{
+      grid-column-start: 2;
+      grid-column-end: 5;
+      width: 450px;
+      height: 100%;
+      float: left;
+      left: 20px;
+      position: relative;
+    }
+    .KS1Baby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .KS2Baby{
+      grid-column-start: 2;
+      grid-column-end: 5;
+      width: 450px;
+      height: 100%;
+      float: left;
+      left: 20px;
+      position: relative;
+    }
+    .KS2Baby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .KS1Wraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS1Wraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS2Wraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .KS2Wraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    /*Educational Css End */
+
+    /* KS1 and KS2 css Start*/
+    .EnglishBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .EnglishBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .MathsBaby{
+      grid-column-start: 3;
+      grid-column: end: 6;
+      width: 230px;
+      height: 100%;
+      float: right;
+      position: relative;
+    }
+    .MathsBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .ArtBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+
+    .ArtBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+
+    .ScienceBaby{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .ScienceBaby:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    /*KS1 and KS2 Css End*/
+
+    footer{
+      top: 300px;
+      width: 100%;
+      height: 20px;
+      border-radius: 15px;
+      border:3px solid black;
+      background-color:rgb(162, 219, 132);
+      position: relative;
+      float:left;
+      text-align: center;
+
+    }
+      }
+      /*Phone css End*/
+
+  /*login css end */
+
+
+@media (max-width 768px) {
+
+    /*contact css start*/
+    LoginFormContainer{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      height: 100%;
+      width: 50%;
+    }
+    .LoginForm{
+      width: 70%;
+      height: 600px;
+      right: 280px;
+      top: 100%;
+      margin-top: 10%;
+
+      background-color:rgb(22, 105, 240);
+      border: 5px solid  rgb(26, 26, 28);
+
+    }
+
+    form{
+      margin-top: 30px;
+
+    }
+    .FormContent{
+      margin: 5px;
+      padding: 5px;
+      text-align: center;
+      width: 80%;
+      margin-top: 10px;
+      margin-bottom: 10%;
+      font-size: 20px;
+    }
+    input{
+      height: 70px;
+    }
+    form .submit{
+      background-color: rgb(201, 158, 79);
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 50px;
+      height: 150px;
+    }
+    form .submit:hover{
+      background-color:rgb(232, 128, 77);
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+      grid-gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid black;
+      text-align: center;
+      font-size: 30px;
+    }
+    .CompanyName{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-left: 5px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 140px;
+      width: 35%;
+      float: left;
+      position: relative;
+
+    }
+    .CompanyLogo{
+      grid-column-start: 4;
+      grid-column-end: 5;
+      margin-left: 5px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 140px;
+      width: 33%;
+      float: left;
+      position: relative;
+    }
+    .AvatarSection{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid red;
+      margin-left: 20px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 120px;
+      width: 25%;
+      float: left;
+
+      position:relative;
+      z-index: -1;
+    }
+    .AvatarImage{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    top:5px;
+    text-align: center;
+    font-size: 10px;
+    height: 40px;
+    width: 95%;
+    float: left;
+    position: relative;
+    }
+
+    .MemberLevel{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 30px;
+      width: 40%;
+      position: relative;
+      float:left;
+    }
+    .UserName{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-top: 5px;
+      margin-right: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 30px;
+      width: 40%;
+      float: right;
+      position: relative;
+    }
+
+    .NavBar{
+      overflow: hidden;
+      background-color: rgb(162, 219, 132);
+      border: 1px solid black;
+      width: 100%;
+      height: 70px;
+      margin-top: 5px;
+      top: 20px;
+      position: relative;
+
+    }
+    .NavBar a{
+      float: left;
+      text-align: center;
+      padding: 5px;
+      font-size: 15px;
+      border: 1px solid black;
+      margin-right: 5px;
+      width: 15%;
+      height: 60px;
+    }
+    .NavBar a:hover{
+      background-color:rgb(232, 128, 77);
+
+    }
+    .HomeGoBack{
+    }
+
+    .MoGames{
+    }
+
+    .MoTv{
+      background-color: rgb(245, 147, 181)
+    }
+    .MoTv:hover{
+        background-color:rgb(232, 128, 77);
+    }
+  .MoEducational{
+
+  }
+    .NavBar a.CurrentPage{
+      background-color: rgb(245, 147, 181);
+    }
+    .ImgNav{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+    .KidsMode{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      background-color: rgb(245, 147, 181);
+      border-radius: 10px;
+      border: 1px solid black;
+      position: relative;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 25%;
+      height: 10px;
+      left: 20px;
+      float: right;
+      font-size: 12px;
+      text-align: center;
+    }
+    .button{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      background-color: rgb(245, 147, 181);
+      border-radius: 10px;
+      border: 1px solid black;
+      position: relative;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 25%;
+      height: 10px;
+      left: 20px;
+      float: right;
+      font-size: 12px;
+      text-align: center;
+    }
+    /*Tv Css Start */
+    .VidWraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+
+
+    .PeppaPigShow{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .PeppaPigShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+
+    .InTheNightGardenShow {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      width: 230px;
+      height: 100%;
+      float: right;
+      position: relative;
+    }
+    .InTheNightGardenShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .VidWraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .PinguShow{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .PinguShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .SesameStreetShow{
+      grid-column-start: 3;
+      grid-column-end: 6;
+      width: 230px;
+      height: 100%;
+      float: right;
+      position: relative;
+    }
+    .SesameStreetShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .HomeFirstBrake{
+      width: 100%;
+      height: 5px;
+      background-color:rgb(162, 219, 132);
+      border: 2px solid black;
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      top: 150px;
+    }
+    .HomeSecondBrake{
+      width: 100%;
+      height: 5px;
+      background-color:rgb(162, 219, 132);
+      border: 2px solid black;
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      top: 150px;
+    }
+
+
+  .TvShowTimeTableHeader{
+  grid-column-start:2;
+  grid-column-end: 5;
+  width: 70%;
+  height: 4%;
+  border: 10px rgb(255, 144, 89);
+  background-color:rgb(162, 219, 132);
+  border-radius: 17px;
+  border-style: dotted;
+  left: 80px;
+  top: 220px;
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+  }
+
+  .TvShowTimeTable{
+    grid-column-start:2;
+    grid-column-end: 5;
+    width: 70%;
+    height: 35%;
+    border: 10px rgb(255, 144, 89);
+    background-color:rgb(162, 219, 132);
+    border-radius: 17px;
+    border-style: dotted;
+    left: 80px;
+    top: 250px;
+    position: relative;
+  }
+  /*TvShow Css End */
+
+  /*Educational Css Start*/
+  .EducationalWraper1{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .EducationalWraper2{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+
+  .KS1Baby{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    width: 450px;
+    height: 100%;
+    float: left;
+    left: 20px;
+    position: relative;
+  }
+  .KS1Baby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .KS2Baby{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    width: 450px;
+    height: 100%;
+    float: left;
+    left: 20px;
+    position: relative;
+  }
+  .KS2Baby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .KS1Wraper1{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .KS1Wraper2{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .KS2Wraper1{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .KS2Wraper2{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  /*Educational Css End */
+
+  /* KS1 and KS2 css Start*/
+  .EnglishBaby{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .EnglishBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .MathsBaby{
+    grid-column-start: 3;
+    grid-column: end: 6;
+    width: 230px;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+  .MathsBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .ArtBaby{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+
+  .ArtBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+
+  .ScienceBaby{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .ScienceBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  /*KS1 and KS2 Css End*/
+
+  footer{
+    top: 300px;
+    width: 100%;
+    height: 20px;
+    border-radius: 15px;
+    border:3px solid black;
+    background-color:rgb(162, 219, 132);
+    position: relative;
+    float:left;
+    text-align: center;
+
+  }
+    }
+    /*Phone css End*/
+
+/*@media portrait tablet size Made by - */
+@media (max-width: 601px) {
+
+    /*contact css start*/
+    LoginFormContainer{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      height: 100%;
+      width: 50%;
+    }
+    .LoginForm{
+      width: 70%;
+      height: 600px;
+      right: 280px;
+      top: 100%;
+      margin-top: 10%;
+
+      background-color:rgb(22, 105, 240);
+      border: 5px solid  rgb(26, 26, 28);
+
+    }
+
+    form{
+      margin-top: 30px;
+
+    }
+    .FormContent{
+      margin: 5px;
+      padding: 5px;
+      text-align: center;
+      width: 80%;
+      margin-top: 10px;
+      margin-bottom: 10%;
+      font-size: 20px;
+    }
+    input{
+      height: 70px;
+    }
+    form .submit{
+      background-color: rgb(201, 158, 79);
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 50px;
+      height: 150px;
+    }
+    form .submit:hover{
+      background-color:rgb(232, 128, 77);
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+      grid-gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid black;
+      text-align: center;
+      font-size: 30px;
+    }
+    .CompanyName{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-left: 5px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 140px;
+      width: 35%;
+      float: left;
+      position: relative;
+
+    }
+    .CompanyLogo{
+      grid-column-start: 4;
+      grid-column-end: 5;
+      margin-left: 5px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 140px;
+      width: 33%;
+      float: left;
+      position: relative;
+    }
+    .AvatarSection{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid red;
+      margin-left: 20px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 120px;
+      width: 25%;
+      float: left;
+
+      position:relative;
+      z-index: -1;
+    }
+    .AvatarImage{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    top:5px;
+    text-align: center;
+    font-size: 10px;
+    height: 40px;
+    width: 95%;
+    float: left;
+    position: relative;
+    }
+
+    .MemberLevel{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-top: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 30px;
+      width: 40%;
+      position: relative;
+      float:left;
+    }
+    .UserName{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-top: 5px;
+      margin-right: 5px;
+      top:10px;
+      text-align: center;
+      font-size: 10px;
+      height: 30px;
+      width: 40%;
+      float: right;
+      position: relative;
+    }
+
+    .NavBar{
+      overflow: hidden;
+      background-color: rgb(162, 219, 132);
+      border: 1px solid black;
+      width: 100%;
+      height: 70px;
+      margin-top: 5px;
+      top: 20px;
+      position: relative;
+
+    }
+    .NavBar a{
+      float: left;
+      text-align: center;
+      padding: 5px;
+      font-size: 15px;
+      border: 1px solid black;
+      margin-right: 5px;
+      width: 15%;
+      height: 60px;
+    }
+    .NavBar a:hover{
+      background-color:rgb(232, 128, 77);
+
+    }
+    .HomeGoBack{
+    }
+
+    .MoGames{
+    }
+
+    .MoTv{
+      background-color: rgb(245, 147, 181)
+    }
+    .MoTv:hover{
+        background-color:rgb(232, 128, 77);
+    }
+  .MoEducational{
+
+  }
+    .NavBar a.CurrentPage{
+      background-color: rgb(245, 147, 181);
+    }
+    .ImgNav{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+    .KidsMode{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      background-color: rgb(245, 147, 181);
+      border-radius: 10px;
+      border: 1px solid black;
+      position: relative;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 25%;
+      height: 10px;
+      left: 20px;
+      float: right;
+      font-size: 12px;
+      text-align: center;
+    }
+    .button{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      background-color: rgb(245, 147, 181);
+      border-radius: 10px;
+      border: 1px solid black;
+      position: relative;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 25%;
+      height: 10px;
+      left: 20px;
+      float: right;
+      font-size: 12px;
+      text-align: center;
+    }
+    /*Tv Css Start */
+    .VidWraper1{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+
+
+    .PeppaPigShow{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .PeppaPigShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+
+    .InTheNightGardenShow {
+      grid-column-start: 3;
+      grid-column-end: 6;
+      width: 230px;
+      height: 100%;
+      float: right;
+      position: relative;
+    }
+    .InTheNightGardenShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .VidWraper2{
+      grid-column-start: 1;
+      grid-column-end:6;
+      border:1px solid black;
+      height: 25%;
+      width:100%;
+      position: relative;
+      top: 150px;
+    }
+    .PinguShow{
+      grid-column-start: 1;
+      grid-column: end: 3;
+      width: 230px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+    .PinguShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .SesameStreetShow{
+      grid-column-start: 3;
+      grid-column-end: 6;
+      width: 230px;
+      height: 100%;
+      float: right;
+      position: relative;
+    }
+    .SesameStreetShow:hover {
+      background-color:rgb(232, 128, 77);
+    }
+    .HomeFirstBrake{
+      width: 100%;
+      height: 5px;
+      background-color:rgb(162, 219, 132);
+      border: 2px solid black;
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      top: 150px;
+    }
+    .HomeSecondBrake{
+      width: 100%;
+      height: 5px;
+      background-color:rgb(162, 219, 132);
+      border: 2px solid black;
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      top: 150px;
+    }
+
+  }
+  .TvShowTimeTableHeader{
+  grid-column-start:2;
+  grid-column-end: 5;
+  width: 70%;
+  height: 4%;
+  border: 10px rgb(255, 144, 89);
+  background-color:rgb(162, 219, 132);
+  border-radius: 17px;
+  border-style: dotted;
+  left: 80px;
+  top: 220px;
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+  }
+
+  .TvShowTimeTable{
+    grid-column-start:2;
+    grid-column-end: 5;
+    width: 70%;
+    height: 35%;
+    border: 10px rgb(255, 144, 89);
+    background-color:rgb(162, 219, 132);
+    border-radius: 17px;
+    border-style: dotted;
+    left: 80px;
+    top: 250px;
+    position: relative;
+  }
+  /*TvShow Css End */
+
+  /*Educational Css Start*/
+  .EducationalWraper1{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .EducationalWraper2{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+
+  .KS1Baby{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    width: 450px;
+    height: 100%;
+    float: left;
+    left: 20px;
+    position: relative;
+  }
+  .KS1Baby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .KS2Baby{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    width: 450px;
+    height: 100%;
+    float: left;
+    left: 20px;
+    position: relative;
+  }
+  .KS2Baby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .KS1Wraper1{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .KS1Wraper2{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .KS2Wraper1{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .KS2Wraper2{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  /*Educational Css End */
+
+  /* KS1 and KS2 css Start*/
+  .EnglishBaby{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .EnglishBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .MathsBaby{
+    grid-column-start: 3;
+    grid-column: end: 6;
+    width: 230px;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+  .MathsBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .ArtBaby{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+
+  .ArtBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+
+  .ScienceBaby{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .ScienceBaby:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  /*KS1 and KS2 Css End*/
+
+  footer{
+    top: 300px;
+    width: 100%;
+    height: 20px;
+    border-radius: 15px;
+    border:3px solid black;
+    background-color:rgb(162, 219, 132);
+    position: relative;
+    float:left;
+    text-align: center;
+
+  }
+    }
+    /*Phone css End*/
+
+
+
+
+/*@media phone size Made by Dale Smallwood*/
+@media (max-width: 600px) {
+
+  /*contact css start*/
+  LoginFormContainer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100%;
+    width: 50%;
+  }
+  .LoginForm{
+    width: 70%;
+    height: 600px;
+    right: 280px;
+    top: 100%;
+    margin-top: 10%;
+
+    background-color:rgb(22, 105, 240);
+    border: 5px solid  rgb(26, 26, 28);
+
+  }
+
+  form{
+    margin-top: 30px;
+
+  }
+  .FormContent{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    font-size: 20px;
+  }
+  input{
+    height: 70px;
+  }
+  form .submit{
+    background-color: rgb(201, 158, 79);
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 50px;
+    height: 150px;
+  }
+  form .submit:hover{
+    background-color:rgb(232, 128, 77);
+    cursor: pointer;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  .CompanyName{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 5px;
+    margin-top: 5px;
+    top:10px;
+    text-align: center;
+    font-size: 10px;
+    height: 140px;
+    width: 35%;
+    float: left;
+    position: relative;
+
+  }
+  .CompanyLogo{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin-left: 5px;
+    margin-top: 5px;
+    top:10px;
+    text-align: center;
+    font-size: 10px;
+    height: 140px;
+    width: 33%;
+    float: left;
+    position: relative;
+  }
+  .AvatarSection{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin-top: 5px;
+    top:10px;
+    text-align: center;
+    font-size: 10px;
+    height: 120px;
+    width: 25%;
+    float: left;
+
+    position:relative;
+    z-index: -1;
+  }
+  .AvatarImage{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  top:5px;
+  text-align: center;
+  font-size: 10px;
+  height: 40px;
+  width: 95%;
+  float: left;
+  position: relative;
+  }
+
+  .MemberLevel{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    top:10px;
+    text-align: center;
+    font-size: 10px;
+    height: 30px;
+    width: 40%;
+    position: relative;
+    float:left;
+  }
+  .UserName{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    top:10px;
+    text-align: center;
+    font-size: 10px;
+    height: 30px;
+    width: 40%;
+    float: right;
+    position: relative;
+  }
+
+  .NavBar{
+    overflow: hidden;
+    background-color: rgb(162, 219, 132);
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    margin-top: 5px;
+    top: 20px;
+    position: relative;
+
+  }
+  .NavBar a{
+    float: left;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-right: 5px;
+    width: 15%;
+    height: 60px;
+  }
+  .NavBar a:hover{
+    background-color:rgb(232, 128, 77);
+
+  }
+  .HomeGoBack{
+  }
+
+  .MoGames{
+  }
+
+  .MoTv{
+    background-color: rgb(245, 147, 181)
+  }
+  .MoTv:hover{
+      background-color:rgb(232, 128, 77);
+  }
+.MoEducational{
+
+}
+  .NavBar a.CurrentPage{
+    background-color: rgb(245, 147, 181);
+  }
+  .ImgNav{
+  grid-column-start: 1;
+  grid-column: end: 3;
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+  .KidsMode{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color: rgb(245, 147, 181);
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25%;
+    height: 10px;
+    left: 20px;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+  }
+  .button{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color: rgb(245, 147, 181);
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25%;
+    height: 10px;
+    left: 20px;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+  }
+  /*Tv Css Start */
+  .VidWraper1{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+
+
+  .PeppaPigShow{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .PeppaPigShow:hover {
+    background-color:rgb(232, 128, 77);
+  }
+
+  .InTheNightGardenShow {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    width: 230px;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+  .InTheNightGardenShow:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .VidWraper2{
+    grid-column-start: 1;
+    grid-column-end:6;
+    border:1px solid black;
+    height: 25%;
+    width:100%;
+    position: relative;
+    top: 150px;
+  }
+  .PinguShow{
+    grid-column-start: 1;
+    grid-column: end: 3;
+    width: 230px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .PinguShow:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .SesameStreetShow{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    width: 230px;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+  .SesameStreetShow:hover {
+    background-color:rgb(232, 128, 77);
+  }
+  .HomeFirstBrake{
+    width: 100%;
+    height: 5px;
+    background-color:rgb(162, 219, 132);
+    border: 2px solid black;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 150px;
+  }
+  .HomeSecondBrake{
+    width: 100%;
+    height: 5px;
+    background-color:rgb(162, 219, 132);
+    border: 2px solid black;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 150px;
+  }
+
+}
+.TvShowTimeTableHeader{
+grid-column-start:2;
+grid-column-end: 5;
+width: 70%;
+height: 4%;
+border: 10px rgb(255, 144, 89);
+background-color:rgb(162, 219, 132);
+border-radius: 17px;
+border-style: dotted;
+left: 80px;
+top: 220px;
+position: relative;
+text-align: center;
+font-size: 23px;
+}
+
+.TvShowTimeTable{
+  grid-column-start:2;
+  grid-column-end: 5;
+  width: 70%;
+  height: 35%;
+  border: 10px rgb(255, 144, 89);
+  background-color:rgb(162, 219, 132);
+  border-radius: 17px;
+  border-style: dotted;
+  left: 80px;
+  top: 250px;
+  position: relative;
+}
+/*TvShow Css End */
+
+/*Educational Css Start*/
+.EducationalWraper1{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+.EducationalWraper2{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+
+.KS1Baby{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  width: 450px;
+  height: 100%;
+  float: left;
+  left: 20px;
+  position: relative;
+}
+.KS1Baby:hover {
+  background-color:rgb(232, 128, 77);
+}
+.KS2Baby{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  width: 450px;
+  height: 100%;
+  float: left;
+  left: 20px;
+  position: relative;
+}
+.KS2Baby:hover {
+  background-color:rgb(232, 128, 77);
+}
+.KS1Wraper1{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+.KS1Wraper2{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+.KS2Wraper1{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+.KS2Wraper2{
+  grid-column-start: 1;
+  grid-column-end:6;
+  border:1px solid black;
+  height: 25%;
+  width:100%;
+  position: relative;
+  top: 150px;
+}
+/*Educational Css End */
+
+/* KS1 and KS2 css Start*/
+.EnglishBaby{
+  grid-column-start: 1;
+  grid-column: end: 3;
+  width: 230px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.EnglishBaby:hover {
+  background-color:rgb(232, 128, 77);
+}
+.MathsBaby{
+  grid-column-start: 3;
+  grid-column: end: 6;
+  width: 230px;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+.MathsBaby:hover {
+  background-color:rgb(232, 128, 77);
+}
+.ArtBaby{
+  grid-column-start: 1;
+  grid-column: end: 3;
+  width: 230px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.ArtBaby:hover {
+  background-color:rgb(232, 128, 77);
+}
+
+.ScienceBaby{
+  grid-column-start: 1;
+  grid-column: end: 3;
+  width: 230px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.ScienceBaby:hover {
+  background-color:rgb(232, 128, 77);
+}
+/*KS1 and KS2 Css End*/
+
+footer{
+  top: 300px;
+  width: 100%;
+  height: 20px;
+  border-radius: 15px;
+  border:3px solid black;
+  background-color:rgb(162, 219, 132);
+  position: relative;
+  float:left;
+  text-align: center;
+
+}
+  }
+  /*Phone css End*/

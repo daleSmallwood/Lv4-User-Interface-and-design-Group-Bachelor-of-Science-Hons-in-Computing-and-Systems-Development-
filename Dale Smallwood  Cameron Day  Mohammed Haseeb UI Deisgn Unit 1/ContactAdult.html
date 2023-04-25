@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link href='Style.css' rel="stylesheet">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+	<title>Contact</title>
+
+  </head>
+  <body class="AdultBody">
+
+
+  <img class="CompanyName" src="Images/BouncingBabyFont.PNG"</img>
+  <img class="CompanyLogo" src="Images/BouncingBabyLogo.PNG"> </img>
+
+  <!--Avatar images and member level section which will display on the website-->
+  <div class="AvatarContent">
+  <img src="Images/ProBaby.PNG" alt="Pro Baby" class="ProBaby"></img>
+  <div class="MembershipButtons">
+  <nav>
+  <a href="ContactAdultFREE.html">Cancel Membership</a>
+  <a href="#">Login</a>
+  <a href="#">Logout</a>
+ </nav>
+  </div>
+  </div>
+
+  <!--Navigation Bar code which will display some baby pictures in place of writing-->
+  <div class="AdultNavBar">
+    <a href="HomeAdult.html">Home</a>
+    <a href="TvShowsAdult.html">Tv Shows</a>
+    <a href="GamesAdult.html">Games</a>
+    <a href="EducationAdult.html">Educational</a>
+    <a href="ContactAdult.html">Contact</a>
+    <a href="AboutAdult.html">About</a>
+    <a href="HomeKIDS.html"><button onclick="ChangeModeToKids()">Adult Mode</button></a>
+
+<!--Adult mode button-->
+<script>
+function ChangeModeToKids() {
+  confirm("Click OK to switch to Kids Layout");
+}
+</script>
+</div>
+
+<div class="ContactMapWraper">
+<iframe class="ContactMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.1207132347377!2d-1.3542379843396937!3d53.430549879996775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48797702b0252f37%3A0x632710a82ee63fe5!2sUniversity%20Centre%20Rotherham!5e0!3m2!1sen!2suk!4v1618145271405!5m2!1sen!2suk" width="910" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<div class="ContactFormWraper">
+<div class="ContactFormHeader">Contact Us!</div>
+
+
+<form class="ContactInformation">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Email:</label><br>
+  <input type="text" id="Email" name="Email">
+  <input class="SubmitButton "type="submit" value="Submit">
+</form>
+<a href="https://www.facebook.com/"target="_blank"><img src="Images/Facebook.PNG" alt="Facebook logo" class="Facebook"></a>
+<a href="https://twitter.com/"target="_blank"><img src="Images/Twitter.PNG" alt="Twitter logo" class="Twitter"></a>
+
+
+</div>
+
+</body>
+
+<!--Footer-->
+<footer>© Bouncing Baby 2021 All Rights Reserved</footer>
+</html>

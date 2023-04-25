@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <link href='Style.css' rel="stylesheet">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+    <title>KS2 English</title>
+
+  </head>
+  <body class="KidsBody">
+
+
+  <img class="CompanyName" src="Images/BouncingBabyFont.PNG"></img>
+  <img class="CompanyLogo" src="Images/BouncingBabyLogo.PNG"></img>
+
+  <!--Avatar images and member level section which will display on the website-->
+  <div class="AvatarContent">
+  <img src="Images/FreeBaby.PNG" alt="Free Baby" class="FreeBaby"></img>
+  <div class="MembershipButtons">
+  <a href="KS2EnglishKIDS.html">Buy Membership</a>
+  <a href="#">Login</a>
+  <a href="#">Logout</a>
+  </div>
+  </div>
+
+  <!--Navigation Bar code which will display some baby pictures in place of writing-->
+  <div class="NavBar">
+  <a class="HomeGoBack" href="HomeKIDSFREE.html"><img src="Images/HomeBaby.PNG" alt="HomeBaby" class="ImgNav"></a>
+  <a class="MoGames" href="GamesKIDSFREE.html"><img src="Images/GamesBaby.PNG" alt="GamesBaby" class="ImgNav"></a>
+  <a href="TvShowsKIDSFREE.html"><img src="Images/TvBaby.PNG" alt="TvShows" class="ImgNav"></a>
+  <a class="MoEducational" href="EducationKIDSFREE.html"><img src="Images/GraduationBaby.PNG" alt="Educational" class="ImgNav"></a>
+  <a class="KidsMode"href="EducationAdultFREE.html"><button onclick="myFunction()">Kids Mode</button></a>
+<!--Adult mode button-->
+<script>
+function myFunction() {
+  confirm("Click OK to switch to Adult Layout");
+}
+</script>
+</div>
+
+<!--Subject Baby Images-->
+<div class="KS2EnglishWraper1">
+<div class="Ks2EnglishHeader1"><h2>Consectetur adipiscing</h2></div>
+<div class="Ks2EnglishText1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat hendrerit vestibulum. Curabitur eu nulla tempor, congue justo nec, pretium ligula. Nunc blandit, dui eu tristique tincidunt, orci magna cursus lorem, eget condimentum nisl quam ac lectus. Ut interdum lectus in est elementum, a sagittis odio luctus. Integer ullamcorper vulputate tincidunt. Quisque ligula nulla, vehicula sed ullamcorper et, dictum id dui. Donec quis orci dignissim, malesuada diam nec, pretium nisi. Suspendisse interdum hendrerit lectus. Curabitur ipsum erat, dapibus sit amet nulla efficitur, varius blandit lacus. Cras a felis justo.</p></div>
+<div><Img src="Images/Ks2EnglishEquipment.JPG" alt="Image of equipment used in english"class="KS2EnglishImage1"></div>
+<!-- image retrived from https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njd8fGtzMiUyMGVuZ2xpc2h8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60-->
+</div>
+
+<div class="KS2EnglishFirstBrake"></div>
+
+<div class="KS2EnglishWraper2">
+  <div><Img src="Images/KS2EnglishBook.JPG" alt="Image Of books"class="KS2EnglishImage2"></div>
+    <!-- image retrived from https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njd8fGtzMiUyMGVuZ2xpc2h8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60 -->
+  <div class="Ks2EnglishHeader2"><h2>Consectetur adipiscing</h2></div>
+  <div class="Ks2EnglishText2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat hendrerit vestibulum. Curabitur eu nulla tempor, congue justo nec, pretium ligula. Nunc blandit, dui eu tristique tincidunt, orci magna cursus lorem, eget condimentum nisl quam ac lectus. Ut interdum lectus in est elementum, a sagittis odio luctus. Integer ullamcorper vulputate tincidunt. Quisque ligula nulla, vehicula sed ullamcorper et, dictum id dui. Donec quis orci dignissim, malesuada diam nec, pretium nisi. Suspendisse interdum hendrerit lectus. Curabitur ipsum erat, dapibus sit amet nulla efficitur, varius blandit lacus. Cras a felis justo.</p></div>
+
+</div>
+
+<!--AUDIO TAGS-->
+<!--Home Button Audio which plays when you hover over the Home Baby-->
+<audio id="Go-Back" preload="auto">
+    <source src="Audio/GoBack.mp3">
+</audio>
+
+<script>
+
+  var PlayGoBack = $("#Go-Back")[0];
+  $(".HomeGoBack")
+.mouseenter(function() {
+  PlayGoBack.play();
+});
+</script>
+
+<!--Games Audio which plays when you hover over the Games Baby-->
+<audio id="Mo-Games" preload="auto">
+    <source src="Audio/Mo-Games.mp3">
+</audio>
+<script>
+
+  var PlayGames = $("#Mo-Games")[0];
+  $(".MoGames")
+.mouseenter(function() {
+  PlayGames .play();
+});
+</script>
+
+<!--TV Show Audio which plays when you hover over the TVShows Baby-->
+<audio id="Mo-Tv" preload="auto">
+    <source src="Audio/Mo-Tv.mp3">
+</audio>
+
+<script>
+
+  var PlayTvShows = $("#Mo-Tv")[0];
+  $(".MoTv")
+.mouseenter(function() {
+  PlayTvShows .play();
+});
+</script>
+
+<!--Educational Audio which plays when you hover over the Educational Baby-->
+<audio id="Mo-Educational" preload="auto">
+    <source src="Audio/Mo-Education.mp3">
+</audio>
+
+<script>
+
+  var PlayEducational = $("#Mo-Educational")[0];
+  $(".MoEducational")
+.mouseenter(function() {
+  PlayEducational .play();
+});
+</script>
+
+<!--KidsMode Audio which plays when you hover over the KidsMode Button-->
+<audio id="KidsModeOff" preload="auto">
+	<source src="Audio/KidsModeOff.mp3">
+</audio>
+
+<script>
+
+var PlayKidsModeOff = $("#KidsModeOff")[0];
+$(".KidsMode")
+.mouseenter(function() {
+PlayKidsModeOff .play();
+});
+</script>
+
+<!--English Audio which plays when you hover over the English Baby-->
+<audio id="Mo-English" preload="auto">
+	<source src="Audio/MoEnglish.mp3">
+</audio>
+
+<script>
+
+var PlayEnglishBaby = $("#Mo-English")[0];
+$(".EnglishBaby")
+.mouseenter(function() {
+PlayEnglishBaby.play();
+});
+</script>
+
+<!--Maths Audio plays when you hover over the Maths baby-->
+<audio id="Mo-Maths" preload="auto">
+	<source src="Audio/Mo-Maths.mp3">
+</audio>
+
+<script>
+
+var PlayMaths = $("#Mo-Maths")[0];
+$(".MathsBaby")
+.mouseenter(function() {
+PlayMaths.play();
+});
+</script>
+
+<!--Art Audio plays when you hover over the Art Baby-->
+<audio id="Mo-Art" preload="auto">
+    <source src="Audio/Mo-Art.mp3">
+</audio>
+
+<script>
+
+var PlayArt = $("#Mo-Art")[0];
+$(".ArtBaby")
+.mouseenter(function() {
+PlayArt.play();
+});
+</script>
+
+<!--Science Audio plays when you hover over the Science Baby-->
+<audio id="Mo-Science" preload="auto">
+    <source src="Audio/Mo-Science.mp3">
+</audio>
+
+<script>
+
+var PlayScience = $("#Mo-Science")[0];
+$(".ScienceBaby")
+.mouseenter(function() {
+PlayScience.play();
+});
+</script>
+
+</body>
+
+<!--Footer-->
+<footer>Bouncing Babys 2021</footer>
+</html>
